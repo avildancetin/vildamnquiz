@@ -1,0 +1,55 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body,
+h1,
+p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    border: 6px solid #c2c4c7;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+}
+
+h1 {
+    margin-bottom: 40px;
+}
+
+#question-container {
+    margin-bottom: 40px;
+}
+
+
+.option-btn {
+    padding: 10px 20px;
+    background-color: #745881;
+    margin: 5px;
+    /* Set background color */
+    color: #000000;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.option-btn:hover {
+    background-color: #6f5393;
+}
+
+
+
+#result {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+}
